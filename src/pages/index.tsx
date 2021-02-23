@@ -1,10 +1,8 @@
 import React from 'react';
-
-import { ExperienceBar } from "../components/ExperienceBar";
-
 import Profile from '../components/Profile'
 import CompletedChallenges from '../components/CompletedChallenges';
 import Countdown from '../components/Countdown';
+import ExperienceBar from '../components/ExperienceBar'
 
 import Head from 'next/head'
 
