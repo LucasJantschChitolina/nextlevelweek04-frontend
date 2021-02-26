@@ -11,7 +11,7 @@ import ChallengeBox from '../components/ChallengeBox';
 
 import {CountdownProvider} from '../contexts/CountdownContext';
 
-import { Container } from './styles';
+import { Container } from '../styles/styles';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 interface HomeProps{
@@ -51,8 +51,6 @@ const Home: React.FC = (props: HomeProps) => {
     </ChallengesProvider>
   )
 };
-
-
 
 export default Home;
 
